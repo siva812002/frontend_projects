@@ -2,12 +2,12 @@
 
 
 CLICK THIS TO SEE WEBSITE:
-(html)
+1)project1:(html)
 https://sivaganapathi.neocities.org/collegePageHtml/
 
 https://sivaganapathi.neocities.org/event/
 
 https://sivaganapathi.neocities.org/collegePageHtml/register
 
-HTML,CSS project:
+2)project2:(HTML,CSS)
 https://sivaganapathi.neocities.org/css_project/css_project/
