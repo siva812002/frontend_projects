@@ -1,0 +1,58 @@
+.nav{ /*dont forget dot*/
+    background-color: black;
+    color: white;
+   display: inline-block; 
+   width: 1500px;
+    padding: 20px;
+}
+
+h1,ul,li{
+display: inline;
+}
+ul{
+margin-left: 60%;    
+}
+li{
+    padding: 20px;
+    cursor: pointer;
+}
+li:hover{
+    color:grey;
+}
+
+.items{
+    display: inline-block;
+padding: 20px;
+margin-right: 80px;
+background-color: yellow;
+    color:black ;
+}
+.items:hover{
+    background-color: white;
+   color: black;
+}
+
+
+.food{
+   margin: 50px;
+text-align: center;
+}
+h2{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+h3{
+    background-color: green;
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+
+}
