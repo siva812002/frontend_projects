@@ -1,0 +1,30 @@
+<input id="box" type="number"> 
+<button onclick="check()">check</button>
+<p id="ans">You are wrong/right</p>
+<p id="res">result</p>
+<p id="score">Your score=10</p>
+
+<script>
+var aa=document.getElementById("box")
+var c=document.getElementById("res")
+var score=document.getElementById("score")
+var r=Math.random()
+var random=Math.floor((r*10)+1)
+var s=10;
+
+function check(){
+  var a=aa.value
+  if(a==random){
+    console.log("right")
+    res.textContent="right"  
+    alert("you won")
+    
+  }
+  else{
+    console.log("wrong")
+    res.textContent="wrong" 
+    s=s-1
+    score.textContent="score="+s
+}
+}
+</script>
